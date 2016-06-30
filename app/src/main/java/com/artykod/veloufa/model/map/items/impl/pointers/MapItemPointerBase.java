@@ -16,7 +16,7 @@ public abstract class MapItemPointerBase extends MapItemBase implements MapItemP
     protected abstract int iconResource();
 
     @Override
-    protected void drawSelf(MapController mapController) {
-        mapController.drawMarker(location, iconResource(), getTitle());
+    protected String drawSelf(MapController mapController) {
+        return mapController.drawMarker(location, iconResource(), getName(), getDescription());
     }
 }

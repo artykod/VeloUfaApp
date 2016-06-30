@@ -53,6 +53,8 @@ public class MapItemsParserKml extends MapItemsParserBase {
                 }
 
                 if (item != null) {
+                    item.setName(i.name);
+                    item.setDescription(i.description);
                     items.add(item);
                 }
             }

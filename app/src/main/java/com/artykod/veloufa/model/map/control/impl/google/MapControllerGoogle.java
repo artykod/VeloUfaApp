@@ -1,13 +1,16 @@
 package com.artykod.veloufa.model.map.control.impl.google;
 
+import android.content.Context;
 import android.location.Location;
 
+import com.artykod.veloufa.R;
 import com.artykod.veloufa.model.map.control.impl.MapControllerBase;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
@@ -19,8 +22,17 @@ public class MapControllerGoogle extends MapControllerBase {
     private GoogleMap map = null;
     private Map<Integer, BitmapDescriptor> iconsCache = new HashMap<>();
 
-    public MapControllerGoogle(GoogleMap googleMap) {
+    public MapControllerGoogle(Context context, GoogleMap googleMap) {
+        super(context);
+
         map = googleMap;
+
+        map.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+            @Override
+            public void onInfoWindowClick(Marker marker) {
+                clickedOnMarker(marker.getId());
+            }
+        });
     }
 
     @Override
@@ -29,7 +41,7 @@ public class MapControllerGoogle extends MapControllerBase {
     }
 
     @Override
-    public void drawPolyline(ArrayList<Location> points, int width, int lineColor) {
+    public String drawPolyline(ArrayList<Location> points, int width, int lineColor) {
         PolylineOptions polylineOptions = new PolylineOptions();
 
         for (int i = 1; i < points.size(); i++) {
@@ -37,21 +49,23 @@ public class MapControllerGoogle extends MapControllerBase {
             LatLng curr = latLngFromLocation(points.get(i));
 
             polylineOptions.add(prev, curr)
+                    .clickable(true)
                     .width(width)
                     .color(lineColor);
         }
 
-        map.addPolyline(polylineOptions);
+        return map.addPolyline(polylineOptions).getId();
     }
 
     @Override
-    public void drawMarker(Location location, int iconResource, String title) {
+    public String drawMarker(Location location, int iconResource, String title, String description) {
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(latLngFromLocation(location))
                 .icon(getIconFromCache(iconResource))
-                .title(title);
+                .title(title)
+                .snippet(context.getResources().getString(R.string.map_item_more_info));
 
-        map.addMarker(markerOptions);
+        return map.addMarker(markerOptions).getId();
     }
 
     @Override

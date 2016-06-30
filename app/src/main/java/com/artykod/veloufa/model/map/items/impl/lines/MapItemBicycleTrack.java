@@ -6,11 +6,6 @@ import android.location.Location;
 import java.util.ArrayList;
 
 public class MapItemBicycleTrack extends MapItemPolylineBase {
-    @Override
-    public String getTitle() {
-        return "BicycleTrack";
-    }
-
     public MapItemBicycleTrack(ArrayList<Location> points) {
         super(points);
     }

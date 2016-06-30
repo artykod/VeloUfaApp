@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 .getMapAsync(new OnMapReadyCallback() {
                     @Override
                     public void onMapReady(GoogleMap googleMap) {
-                        mapController = MapControllerFactory.buildGoogleMap(googleMap);
+                        mapController = MapControllerFactory.buildGoogleMap(context, googleMap);
 
                         //  Ufa location
                         float zoomFactor = 11f;

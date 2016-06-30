@@ -10,11 +10,6 @@ public class MapItemPointerParking extends MapItemPointerBase {
     }
 
     @Override
-    public String getTitle() {
-        return "Parking";
-    }
-
-    @Override
     protected int iconResource() {
         return R.drawable.ic_park;
     }

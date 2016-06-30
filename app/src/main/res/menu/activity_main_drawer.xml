@@ -3,33 +3,37 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_item_track" />
+        <item
             android:id="@+id/nav_park"
             android:icon="@drawable/ic_park"
-            android:title="Parking" />
+            android:title="@string/nav_item_parking" />
         <item
             android:id="@+id/nav_rental"
             android:icon="@drawable/ic_rental"
-            android:title="Rental" />
+            android:title="@string/nav_item_rental" />
         <item
             android:id="@+id/nav_service"
             android:icon="@drawable/ic_service"
-            android:title="Service" />
+            android:title="@string/nav_item_service" />
         <item
             android:id="@+id/nav_shop"
             android:icon="@drawable/ic_shop"
-            android:title="Shop" />
+            android:title="@string/nav_item_shop" />
     </group>
 
-    <item android:title="Community">
+    <item android:title="@string/nav_group_community">
         <menu>
             <item
                 android:id="@+id/nav_vk"
                 android:icon="@drawable/ic_menu_share"
-                android:title="VK" />
+                android:title="@string/nav_item_vk" />
             <item
                 android:id="@+id/nav_forum"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Forum" />
+                android:title="@string/nav_item_forum" />
         </menu>
     </item>
 

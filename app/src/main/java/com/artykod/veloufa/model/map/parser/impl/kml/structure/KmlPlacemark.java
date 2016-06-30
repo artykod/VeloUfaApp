@@ -9,6 +9,9 @@ public class KmlPlacemark {
     @Element(name = "name", required = false)
     public String name;
 
+    @Element(name = "description", required = false)
+    public String description;
+
     @Element(name = "Point", required = false)
     public KmlCoordinates point;
 

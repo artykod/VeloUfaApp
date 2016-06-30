@@ -10,11 +10,6 @@ public class MapItemPointerShop extends MapItemPointerBase {
     }
 
     @Override
-    public String getTitle() {
-        return "Shop";
-    }
-
-    @Override
     protected int iconResource() {
         return R.drawable.ic_shop;
     }

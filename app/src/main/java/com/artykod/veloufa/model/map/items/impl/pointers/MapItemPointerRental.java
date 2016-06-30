@@ -10,11 +10,6 @@ public class MapItemPointerRental extends MapItemPointerBase {
     }
 
     @Override
-    public String getTitle() {
-        return "Rental";
-    }
-
-    @Override
     protected int iconResource() {
         return R.drawable.ic_rental;
     }

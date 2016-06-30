@@ -13,6 +13,6 @@ public interface MapController {
     void update();
     void setItemsVisibility(Type itemsType, boolean isVisible);
     boolean getItemsVisibility(Type itemsType);
-    void drawPolyline(ArrayList<Location> points, int width, int lineColor);
-    void drawMarker(Location location, int iconResource, String title);
+    String drawPolyline(ArrayList<Location> points, int width, int lineColor);
+    String drawMarker(Location location, int iconResource, String title, String description);
 }

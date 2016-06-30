@@ -16,8 +16,8 @@ public abstract class MapItemPolylineBase extends MapItemBase implements MapItem
     }
 
     @Override
-    protected void drawSelf(MapController mapController) {
-        mapController.drawPolyline(points, lineWidth(), lineColor());
+    protected String drawSelf(MapController mapController) {
+        return mapController.drawPolyline(points, lineWidth(), lineColor());
     }
 
     protected abstract int lineWidth();

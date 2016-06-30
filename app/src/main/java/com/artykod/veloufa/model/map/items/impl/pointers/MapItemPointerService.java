@@ -10,11 +10,6 @@ public class MapItemPointerService extends MapItemPointerBase {
     }
 
     @Override
-    public String getTitle() {
-        return "Service";
-    }
-
-    @Override
     protected int iconResource() {
         return R.drawable.ic_service;
     }
