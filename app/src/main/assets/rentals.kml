@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Велофирмы</name>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>veloprokatufa.ru</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Прокат велосипедов,  veloprokatufa.ru, https://vk.com/veloprokatufa,  8(961)359-30-39]]></description>
+			<Point>
+				<coordinates>55.986821000000006,54.735889,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>SKI MAX</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Аренда велосипедов, Комарова, 1 к1, Суббота, воскресенье — 11:00–20:00, <br>Будние дни 14:00–21:00, (347) 240-53-88, www.skimax.ru]]></description>
+			<Point>
+				<coordinates>56.037241,54.808078,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>Скаут</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Салон по продаже и прокату спортивного и туристического снаряжения, 8-917-355-53-78, www.magazin-scaut.tiu.ru]]></description>
+			<Point>
+				<coordinates>56.032636,54.768682,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>ProX3m</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Спортивный магазин-салон, аренда велосипедов, Комсомольская, 159/1, Ежедневно 10:00–20:00, (347) 294-64-34, www.prox3m.ru, https://vk.com/prox3m]]></description>
+			<Point>
+				<coordinates>56.021865,54.764007,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>ProX3m</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Спортивный магазин-салон, аренда велосипедов, ул. Лесотехникума, 49/1,  Ежедневно 10:00–20:00, (347) 294-64-34, www.prox3m.ru, https://vk.com/prox3m]]></description>
+			<Point>
+				<coordinates>56.029293,54.751782,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>Роза Ветров</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Прокат туристического снаряжения, Будние дни 10:00–20:00, <br>Суббота, воскресенье — 11:00–19:00, (347) 223-45-80, www.rozavetrov.ru]]></description>
+			<Point>
+				<coordinates>55.991162,54.753759,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>Центр проката туристического снаряжения, ИП Коршунов П.В.</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[8-961-371-88-88]]></description>
+			<Point>
+				<coordinates>56.000609,54.715202,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>Центр проката горнолыжного снаряжения, ИП Антонова Е.С.</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[8-917-441-59-24Посмотреть телефонwww.skirent-ufa.ru]]></description>
+			<Point>
+				<coordinates>55.937918,54.718861,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>Прокат Кашкадан</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>56.062492,54.773768,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>ВелоДрайв</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Ул.Гафури 103а 89174412851]]></description>
+			<Point>
+				<coordinates>55.931729,54.736188,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1193</styleUrl>
+			<name>Rent Bike</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Прокат велосипедов премиум класса, Круглосуточно, Энгельса 1, https://vk.com/club_rent_bike 89170465046, 89174040910]]></description>
+			<Point>
+				<coordinates>55.959316,54.724399000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1193'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1193-fac-animal-shelter.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

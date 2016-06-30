@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Велофирмы</name>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Ride Free</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[1) Веломастерская Free-Ride2) Ремонт и обслуживание велосипедов.3) Коммунаров 594) По записи.5) Коммунаров 59, http://vk.com/freeride02▼ , 8-917-409-87-59.]]></description>
+			<Point>
+				<coordinates>56.121497,54.815653,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велопроспект &amp; Сноушоп</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Спортивный магазин, Октября проспект, 14, Ежедневно 10:00–20:00, (347) 298-90-08, 8-917-778-88-83, www.veloprospect.ru, https://vk.com/veloprospectufa]]></description>
+			<Point>
+				<coordinates>55.99225,54.744953,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Велопроспект &amp; Сноушоп</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Спортивный магазин, Октября проспект, 14, Ежедневно 10:00–20:00, (347) 298-90-08, 8-917-778-88-83, www.veloprospect.ru, https://vk.com/veloprospectufa]]></description>
+			<Point>
+				<coordinates>55.992288,54.744989,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велотерра</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.964146,54.734464,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Велотерра</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.964157,54.734531,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Триал-спорт</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.972171,54.738859,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Триал-спорт</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Специализированный спортивный магазин, 50 лет Октября, 15, Будние дни 10:00–20:00, Суббота, воскресенье — 11:00–19:00, (347) 266-18-12, www.trial-sport.ru]]></description>
+			<Point>
+				<coordinates>55.972209,54.738937,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велик</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и обслуживание велосипедов, Юрия Гагарина (Сипайлово), 74 , Ежедневно 10:00–20:00, (347) 236-58-80]]></description>
+			<Point>
+				<coordinates>56.074133,54.778378,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>StarkShopUfa</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и обслуживание, ул. Академика Королева, 2,  http://vk.com/starkbike▼  +79173605088]]></description>
+			<Point>
+				<coordinates>56.067588,54.774455,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>StarkShopUfa</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и обслуживание, ул. Академика Королева, 2,  http://vk.com/starkbike▼  +79173605088]]></description>
+			<Point>
+				<coordinates>56.067502,54.774603,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>26 Дюймов</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.995512,54.70216,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Велик</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и обслуживание велосипедов, Юрия Гагарина (Сипайлово), 74 , Ежедневно 10:00–20:00, (347) 236-58-80]]></description>
+			<Point>
+				<coordinates>56.074251000000004,54.778242,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Веложизнь</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Ремонт и обслуживание велосипедов, Проспект октября 132\2. ост "Юрюзань"<br>Телефон : +7987 019 59 12<br>Пн-Пт: 11-20ч ; <br>Пн-Пт: 20-22ч ПО ЗВОНКУ!<br>Сб-Вск: ПО ЗВОНКУ! +7987 019 59 12, https://vk.com/club70262628]]></description>
+			<Point>
+				<coordinates>56.031336,54.775816,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Велорай</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Ремонт и обслуживание, Ак.Королева 27, veloray.ru , http://vk.com/veloray_ufa▼  , 89371678140 ; 89177558261. 10:00-21:00]]></description>
+			<Point>
+				<coordinates>56.080125,54.772927,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Веломастер</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Ремонт и обслуживание велосипедов, с 10.00 до 22.00, https://vk.com/velomaster,  +7 9373697040]]></description>
+			<Point>
+				<coordinates>56.075749,54.769102,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Чемпион</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и ремонт велосипедов, Понедельник–суббота — 11:00–20:00 Воскресенье — 11:00–19:00, (347) 2-500-800, (347) 284-01-68, www.championnet.ru]]></description>
+			<Point>
+				<coordinates>56.03258,54.780872,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Чемпион</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и ремонт велосипедов, Понедельник–суббота — 11:00–20:00 Воскресенье — 11:00–19:00, (347) 2-500-800, (347) 284-01-68, www.championnet.ru]]></description>
+			<Point>
+				<coordinates>56.032484,54.780624,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Марараточка</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[+79174177170]]></description>
+			<Point>
+				<coordinates>55.969076,54.73808,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Пионер</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.975489,54.731694,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>EvolutionDH</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Запчасти, сервис велосипедов, заказы велосипедов из США, Европы, Азии,  ул. Академика Королева, 2, 89273489601, http://vk.com/evolutiondh]]></description>
+			<Point>
+				<coordinates>56.067714,54.774514,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Active Market</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[магазин мото и велотехники, Понедельник–суббота — 10:00–20:00, Воскресенье — 10:00–19:00, (347) 223-90-90, https://vk.com/activemarket]]></description>
+			<Point>
+				<coordinates>55.9947,54.756565,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Active Market</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Магазин мото и велотехники, Понедельник–суббота — 10:00–20:00, Воскресенье — 10:00–19:00, (347) 223-90-90, https://vk.com/activemarket]]></description>
+			<Point>
+				<coordinates>55.9947,54.756565,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1033</styleUrl>
+			<name>Пионер</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.975749,54.731658,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1033'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1033-biz-hardware.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1101'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1101-biz-supermarket.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

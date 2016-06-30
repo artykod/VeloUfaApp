@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Велофирмы</name>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Мир МС Спорта</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[мир мс спорта велосипеды спорт инвентарь все для спорта туризма и отдыха 1)велосипеды только (FORVARD) производство г. Перьмь сборка моя 2)ремонт ТО3)режим работы с 10.00до20.00 без перерыва и выходных4)адресс...дёма муса джалиля 57 телефон 200-63-99(сотел) 89191453506]]></description>
+			<Point>
+				<coordinates>55.825257,54.703353,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велопроспект &amp; Сноушоп</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Спортивный магазин, Октября проспект, 14, Ежедневно 10:00–20:00, (347) 298-90-08, 8-917-778-88-83, www.veloprospect.ru, https://vk.com/veloprospectufa]]></description>
+			<Point>
+				<coordinates>55.99225,54.744953,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велотерра</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.964146,54.734464,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Триал-спорт</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.972171,54.738859,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Триал-спорт</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа велосипедов, ул. Клавдии Абрамовой, 6, Будние дни 10:00–20:00, Суббота, воскресенье — 11:00–19:00, www.trial-sport.ru, (347) 278-84-54]]></description>
+			<Point>
+				<coordinates>56.025102,54.750319,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велик</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и обслуживание велосипедов, Юрия Гагарина (Сипайлово), 74 , Ежедневно 10:00–20:00, (347) 236-58-80]]></description>
+			<Point>
+				<coordinates>56.074133,54.778378,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>StarkShopUfa</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и обслуживание, ул. Академика Королева, 2,  http://vk.com/starkbike▼  +79173605088]]></description>
+			<Point>
+				<coordinates>56.067588,54.774455,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Велодом</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Прожажа велосипедов, ул. Первомайская, 96, 11:00–20:00, (347) 264-17-70]]></description>
+			<Point>
+				<coordinates>56.109915,54.806833,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Чемпион</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа и ремонт велосипедов, Понедельник–суббота — 11:00–20:00 Воскресенье — 11:00–19:00, (347) 2-500-800, (347) 284-01-68, www.championnet.ru]]></description>
+			<Point>
+				<coordinates>56.03258,54.780872,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Intersport</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.950483,54.731807,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Чемпион</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[Продажа велосипедов, ул. Мира 28, Понедельник–суббота — 11:00–20:00, Воскресенье — 11:00–19:00, www.championnet.ru, (347) 242-92-31]]></description>
+			<Point>
+				<coordinates>56.070485,54.819271,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Пионер</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>55.975489,54.731694,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Чемпион</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>56.008085,54.716331,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-1101</styleUrl>
+			<name>Active Market</name>
+			<ExtendedData>
+			</ExtendedData>
+			<description><![CDATA[магазин мото и велотехники, Понедельник–суббота — 10:00–20:00, Воскресенье — 10:00–19:00, (347) 223-90-90, https://vk.com/activemarket]]></description>
+			<Point>
+				<coordinates>55.9947,54.756565,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1101'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1101-biz-supermarket.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
