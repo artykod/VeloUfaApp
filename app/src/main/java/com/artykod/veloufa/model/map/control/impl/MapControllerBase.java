@@ -15,6 +15,7 @@ public abstract class MapControllerBase implements MapController {
     protected ArrayList<MapItem> items = new ArrayList<>();
     private Map<Type, Boolean> itemsVisibility = new HashMap<>();
     private Map<String, MapItem> itemsMarkers = new HashMap<>();
+    private ClickListener clickListener;
 
     public MapControllerBase(Context context) {
         this.context = context;
@@ -58,12 +59,17 @@ public abstract class MapControllerBase implements MapController {
         return result == null || result;
     }
 
+    @Override
+    public void setClickListener(ClickListener listener) {
+        clickListener = listener;
+    }
+
     protected abstract void clearMap();
 
     protected void clickedOnMarker(String markerId) {
         MapItem item = itemsMarkers.get(markerId);
-        if (item != null) {
-
+        if (item != null && clickListener != null) {
+            clickListener.onItemClick(item);
         }
     }
 }

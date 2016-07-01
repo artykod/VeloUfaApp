@@ -49,6 +49,7 @@ public class MapControllerGoogle extends MapControllerBase {
             LatLng curr = latLngFromLocation(points.get(i));
 
             polylineOptions.add(prev, curr)
+                    .geodesic(true)
                     .clickable(true)
                     .width(width)
                     .color(lineColor);

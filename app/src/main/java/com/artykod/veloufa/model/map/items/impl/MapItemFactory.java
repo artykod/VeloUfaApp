@@ -12,11 +12,11 @@ import com.artykod.veloufa.model.map.items.impl.pointers.MapItemPointerShop;
 import java.util.ArrayList;
 
 public class MapItemFactory {
-    public static MapItem buildBicycleTrack(ArrayList<Location> points) {
-        return new MapItemBicycleTrack(points);
+    public static MapItem buildBicycleTrack(ArrayList<Location> points, int width, int color) {
+        return new MapItemBicycleTrack(points, width, color);
     }
 
-    public static MapItem buildBicycleTrackFromRawPoints(String rawPoints) {
+    public static MapItem buildBicycleTrackFromRawPoints(String rawPoints, int width, int color) {
         ArrayList<Location> points = new ArrayList<>();
 
         String[] coordsList = rawPoints.split(" ");
@@ -24,7 +24,7 @@ public class MapItemFactory {
             points.add(parseRawPoint(i));
         }
 
-        return buildBicycleTrack(points);
+        return buildBicycleTrack(points, width, color);
     }
 
     public static MapItem buildParking(Location location) {

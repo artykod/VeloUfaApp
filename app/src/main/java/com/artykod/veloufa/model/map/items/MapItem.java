@@ -1,18 +1,57 @@
 package com.artykod.veloufa.model.map.items;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import com.artykod.veloufa.model.map.control.MapController;
 
-public interface MapItem {
-    void draw(MapController mapController);
+import java.io.Serializable;
 
+public interface MapItem extends Serializable {
+    void draw(MapController mapController);
     void setVisibility(boolean value);
+    void setName(String value);
+    void setDescription(String value);
+    String getName();
+    String getDescription();
+    String getMarkerId();
     boolean getVisibility();
 
-    void setName(String value);
-    String getName();
+    class ParcelInfo implements Parcelable {
+        public String name;
+        public String description;
 
-    void setDescription(String value);
-    String getDescription();
+        public ParcelInfo(MapItem fromItem) {
+            if (fromItem != null) {
+                name = fromItem.getName();
+                description = fromItem.getDescription();
+            }
+        }
 
-    String getMarkerId();
+        @Override
+        public int describeContents() {
+            return 0;
+        }
+
+        @Override
+        public void writeToParcel(Parcel dest, int flags) {
+            dest.writeString(name);
+            dest.writeString(description);
+        }
+
+        public static final Parcelable.Creator<ParcelInfo> CREATOR = new Creator<ParcelInfo>() {
+            @Override
+            public ParcelInfo createFromParcel(Parcel source) {
+                ParcelInfo instance = new ParcelInfo(null);
+                instance.name = source.readString();
+                instance.description = source.readString();
+                return instance;
+            }
+
+            @Override
+            public ParcelInfo[] newArray(int size) {
+                return new ParcelInfo[size];
+            }
+        };
+    }
 }

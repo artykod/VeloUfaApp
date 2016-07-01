@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
-	<Document>
-		<name>Велофирмы</name>
+	<Document id="shop">
+		<name>Магазины</name>
 		<Placemark>
 			<styleUrl>#icon-1101</styleUrl>
 			<name>Мир МС Спорта</name>

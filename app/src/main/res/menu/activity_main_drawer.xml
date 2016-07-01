@@ -3,37 +3,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_track"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/nav_item_track" />
+            android:id="@+id/nav_news"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/nav_item_news" />
         <item
-            android:id="@+id/nav_park"
-            android:icon="@drawable/ic_park"
-            android:title="@string/nav_item_parking" />
-        <item
-            android:id="@+id/nav_rental"
-            android:icon="@drawable/ic_rental"
-            android:title="@string/nav_item_rental" />
-        <item
-            android:id="@+id/nav_service"
-            android:icon="@drawable/ic_service"
-            android:title="@string/nav_item_service" />
-        <item
-            android:id="@+id/nav_shop"
-            android:icon="@drawable/ic_shop"
-            android:title="@string/nav_item_shop" />
+            android:id="@+id/nav_events"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/nav_item_events" />
     </group>
 
     <item android:title="@string/nav_group_community">
         <menu>
             <item
                 android:id="@+id/nav_vk"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_menu_vk"
                 android:title="@string/nav_item_vk" />
             <item
                 android:id="@+id/nav_forum"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_menu_forum"
                 android:title="@string/nav_item_forum" />
+            <item
+                android:id="@+id/nav_github"
+                android:icon="@drawable/ic_menu_github"
+                android:title="@string/nav_item_github" />
         </menu>
     </item>
 

@@ -15,4 +15,10 @@ public interface MapController {
     boolean getItemsVisibility(Type itemsType);
     String drawPolyline(ArrayList<Location> points, int width, int lineColor);
     String drawMarker(Location location, int iconResource, String title, String description);
+
+    void setClickListener(ClickListener listener);
+
+    interface ClickListener {
+        void onItemClick(MapItem mapItem);
+    }
 }

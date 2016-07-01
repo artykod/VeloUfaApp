@@ -43,7 +43,7 @@ public abstract class MapItemsParserBase implements MapItemsParser {
         try {
             mapItems = parse(content);
         } catch (Exception e) {
-            Logger.warning("Exception while parsing kml " + textAssetName + ": " + e.getMessage());
+            Logger.warning("Exception while parsing map items " + textAssetName + ": " + e.getMessage());
         }
 
         return mapItems;
